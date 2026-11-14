@@ -1,0 +1,9 @@
+【每月更新團課課表，只要改一個檔案】
+
+1. 用記事本（或任何文字編輯器）打開  data/schedule.js
+2. 修改最上面的 title（例如："1–2 月團課時間表"）
+3. 在 classes 裡新增、修改或刪除課程（每堂課一行，格式照著現有的複製即可）
+     day: 1~6 代表 週一~週六    start / end: 時間    name: 課名    price: 500 或 700
+4. 存檔，重新上傳（GitHub 的話是 commit；Netlify Drop 的話是重新拖曳資料夾）
+
+不想自己改也可以：把新的課表圖片傳給 Claude，請它幫你更新 data/schedule.js 即可。
