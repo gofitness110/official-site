@@ -265,8 +265,8 @@ h1,h2,h3{text-wrap:balance}
 .sched-cta{margin-top:26px}
 .plans.two{gap:20px}
 .plan-note{margin-top:20px;font-size:14px;color:var(--muted)}
-.moments.four{grid-template-columns:repeat(2,minmax(0,1fr))}
-.moments.four figure:first-child{grid-column:auto;aspect-ratio:3/4}
+.moments.four,.moments.six{grid-template-columns:repeat(2,minmax(0,1fr))}
+.moments.four figure:first-child,.moments.six figure:first-child{grid-column:auto;aspect-ratio:3/4}
 .team{display:grid}
 .coach{display:grid;gap:26px;padding-block:44px;border-top:1px solid rgba(37,48,46,.22);align-items:start}
 .coach:last-child{border-bottom:1px solid rgba(37,48,46,.22)}
@@ -327,6 +327,7 @@ h1,h2,h3{text-wrap:balance}
   .moments{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
   .moments figure:first-child,.moments figure:not(:first-child){grid-column:auto;aspect-ratio:3/4}
   .moments.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .moments.six{grid-template-columns:repeat(3,minmax(0,1fr))}
   .basics{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:36px}
   .basics li{border-bottom:0}
   .basics li:nth-child(n+4){border-bottom:1px solid rgba(37,48,46,.22)}
