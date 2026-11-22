@@ -385,7 +385,8 @@ h1,h2,h3{text-wrap:balance}
   .hero-gc .hero-img{bottom:auto;height:62%;object-position:45% 85%!important;-webkit-mask-image:linear-gradient(#000 72%,transparent);mask-image:linear-gradient(#000 72%,transparent)}
 }
 
-.quote p{text-wrap:pretty}
 
-.cl{white-space:nowrap}
-.quote .cl{white-space:normal}
+
+/* body text: justified so line ends look even */
+main p,main li,main dd,details p{text-align:justify;text-justify:inter-character;text-wrap:pretty}
+main .label,main .price,main .course-lead,main .hero-sub,main .line-id,main .more,main .tag,main .facts li,main .facts span,main .coaches li,main .coaches span,main .btn,main summary,main footer{text-align:left;text-justify:auto}
